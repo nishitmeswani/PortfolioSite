@@ -1,0 +1,22 @@
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 300
+    color:#747784;
+}
+
+.text-muted {
+    color: grey;
+}
+
+.text-super {
+    font-size: 60px;
+}
+
+hr {
+    display: block;
+    height: 10px;
+    border: 0;
+    border-top: 3px solid grey;
+    margin: 1em 0;
+    padding: 0;
+}

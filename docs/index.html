@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="container">
+<header>
+  <div class="row">
+    <div class="col-md-6">
+    <img src="img/logo.png" alt="NMIMS logo">
+    </div>
+    <div class="col-md-6 text-right text-uppercase">
+      <h1 class="text-super">Nishit Meswani</h1>
+      <h3 class="text-muted">Front End Web Developer</h3>
+    </div>
+  </div>
+</header>
+
+  <div class="row">
+    <hr>
+  </div>
+<div class ="row">
+  <div class="col-md-12">
+    <img class="center-block img-responsive" src="img/develop.jpg" alt="Developer Image here">
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <h2 class="text-muted">Featured work </h2>
+  </div>
+</div>
+<footer>
+<article>
+<div class="row text-center">
+  <div class="col-md-4" data-toggle="modal" data-target="#project1">
+    <img src="img/mockup.png" class="center-block img-responsive" alt="Mockup Design">
+    <h4> Design mockup to HTMl</h4>
+  </div>
+    <div class="col-md-4 " data-toggle="modal" data-target="#project2">
+    <img src="img/Panda.png" class="center-block img-responsive" alt="Anmial Card webpage">
+    <h4>Implementing CSS</h4>
+    </div>
+    <div class="col-md-4" data-toggle="modal" data-target="#project1">
+    <img src="http://placekitten.com/g/200/300" alt="comming soon">
+    <h4>P1</h4>
+    </div>
+    </div>
+</article>
+</footer>
+</div>
+
+<!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Design mockup to HTMl</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="img/mockup.png" class="center-block img-responsive">
+                      <p><b>Practicing HTML syntax by translating a mockup of a blog article design provided by UI designer into a real website.</b></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Implementing CSS</h4>
+                </div>
+                <div class="modal-body">
+                      <img src="img/panda.png" class="center-block img-responsive">
+                      <p><b>Using what I,ve learned about CSS to convert a design prototype into a functional webpage!</b></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
